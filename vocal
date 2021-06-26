@@ -2,7 +2,7 @@
 <rack><plugin type="deesser" instance-name="Deesser" input-index="1" output-index="1">
 <preset bank="0" program="0" plugin="deesser" name="">
   <param name="bypass" value="0" />
-  <param name="detected" value="0.00389489" />
+  <param name="detected" value="0.000194232" />
   <param name="compression" value="1" />
   <param name="detected_led" value="0" />
   <param name="clip_out" value="0" />
@@ -24,16 +24,16 @@
 <preset bank="0" program="0" plugin="compressor" name="">
   <param name="bypass" value="0" />
   <param name="level_in" value="1.54114" />
-  <param name="meter_in" value="0.0123358" />
-  <param name="meter_out" value="0.15209" />
+  <param name="meter_in" value="0.000181327" />
+  <param name="meter_out" value="0.00480542" />
   <param name="clip_in" value="0" />
   <param name="clip_out" value="0" />
-  <param name="threshold" value="0.0112028" />
+  <param name="threshold" value="0.0412346" />
   <param name="ratio" value="3.14591" />
   <param name="attack" value="20" />
   <param name="release" value="250" />
-  <param name="makeup" value="12.3291" />
-  <param name="knee" value="8" />
+  <param name="makeup" value="26.5015" />
+  <param name="knee" value="1.42998" />
   <param name="detection" value="0" />
   <param name="stereo_link" value="0" />
   <param name="compression" value="1" />
@@ -45,9 +45,9 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="0.648869" />
-  <param name="meter_inL" value="0.15209" />
+  <param name="meter_inL" value="0.00682464" />
   <param name="meter_inR" value="0" />
-  <param name="meter_outL" value="0.0946414" />
+  <param name="meter_outL" value="0.005729" />
   <param name="meter_outR" value="0" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
@@ -93,8 +93,8 @@
 </plugin>
 <plugin type="reverb" instance-name="Reverb" input-index="7" output-index="7">
 <preset bank="0" program="0" plugin="reverb" name="">
-  <param name="meter_inL" value="0.0946414" />
-  <param name="meter_inR" value="0.0946414" />
+  <param name="meter_inL" value="0.005729" />
+  <param name="meter_inR" value="0.005729" />
   <param name="clip_outL" value="0" />
   <param name="decay_time" value="1.22446" />
   <param name="hf_damp" value="5000" />
@@ -108,8 +108,8 @@
   <param name="on" value="1" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_outL" value="0.100961" />
-  <param name="meter_outR" value="0.101143" />
+  <param name="meter_outL" value="0.00603517" />
+  <param name="meter_outR" value="0.00582036" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
   <param name="clip_outR" value="0" />

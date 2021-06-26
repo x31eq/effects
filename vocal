@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="deesser" instance-name="Deesser" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="deesser" name="">
+  <param name="bypass" value="0" />
+  <param name="detected" value="0.00389489" />
+  <param name="compression" value="1" />
+  <param name="detected_led" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="detection" value="0" />
+  <param name="mode" value="0" />
+  <param name="threshold" value="0.00189972" />
+  <param name="ratio" value="3" />
+  <param name="laxity" value="15" />
+  <param name="makeup" value="1" />
+  <param name="f1_freq" value="6000" />
+  <param name="f2_freq" value="4500" />
+  <param name="f1_level" value="1" />
+  <param name="f2_level" value="4" />
+  <param name="f2_q" value="1" />
+  <param name="sc_listen" value="0" />
+</preset>
+</plugin>
+<plugin type="compressor" instance-name="Compressor" input-index="3" output-index="3">
+<preset bank="0" program="0" plugin="compressor" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1.54114" />
+  <param name="meter_in" value="0.0123358" />
+  <param name="meter_out" value="0.15209" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.0112028" />
+  <param name="ratio" value="3.14591" />
+  <param name="attack" value="20" />
+  <param name="release" value="250" />
+  <param name="makeup" value="12.3291" />
+  <param name="knee" value="8" />
+  <param name="detection" value="0" />
+  <param name="stereo_link" value="0" />
+  <param name="compression" value="1" />
+  <param name="mix" value="1" />
+</preset>
+</plugin>
+<plugin type="eq8" instance-name="Equalizer 8 Band" input-index="5" output-index="5">
+<preset bank="0" program="0" plugin="eq8" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="0.648869" />
+  <param name="meter_inL" value="0.15209" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="0.0946414" />
+  <param name="meter_outR" value="0" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="hp_active" value="0" />
+  <param name="hp_freq" value="331.319" />
+  <param name="hp_mode" value="2" />
+  <param name="hp_q" value="0.707" />
+  <param name="lp_active" value="0" />
+  <param name="lp_freq" value="301.204" />
+  <param name="lp_mode" value="1" />
+  <param name="lp_q" value="0.516915" />
+  <param name="ls_active" value="2" />
+  <param name="ls_level" value="0.0167001" />
+  <param name="ls_freq" value="32.4674" />
+  <param name="ls_q" value="0.787046" />
+  <param name="hs_active" value="2" />
+  <param name="hs_level" value="0.0571937" />
+  <param name="hs_freq" value="6573.66" />
+  <param name="hs_q" value="1.22863" />
+  <param name="p1_active" value="2" />
+  <param name="p1_level" value="2.1495" />
+  <param name="p1_freq" value="109.55" />
+  <param name="p1_q" value="1" />
+  <param name="p2_active" value="0" />
+  <param name="p2_level" value="1.64718" />
+  <param name="p2_freq" value="500" />
+  <param name="p2_q" value="1" />
+  <param name="p3_active" value="2" />
+  <param name="p3_level" value="1.88165" />
+  <param name="p3_freq" value="2000" />
+  <param name="p3_q" value="1" />
+  <param name="p4_active" value="0" />
+  <param name="p4_level" value="0.435275" />
+  <param name="p4_freq" value="5477.5" />
+  <param name="p4_q" value="1" />
+  <param name="individuals" value="1" />
+  <param name="zoom" value="0.315927" />
+  <param name="analyzer" value="0" />
+  <param name="analyzer_mode" value="1" />
+</preset>
+</plugin>
+<plugin type="reverb" instance-name="Reverb" input-index="7" output-index="7">
+<preset bank="0" program="0" plugin="reverb" name="">
+  <param name="meter_inL" value="0.0946414" />
+  <param name="meter_inR" value="0.0946414" />
+  <param name="clip_outL" value="0" />
+  <param name="decay_time" value="1.22446" />
+  <param name="hf_damp" value="5000" />
+  <param name="room_size" value="0" />
+  <param name="diffusion" value="0.5" />
+  <param name="amount" value="0.135842" />
+  <param name="dry" value="1" />
+  <param name="predelay" value="0" />
+  <param name="bass_cut" value="300" />
+  <param name="treble_cut" value="5000" />
+  <param name="on" value="1" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_outL" value="0.100961" />
+  <param name="meter_outR" value="0.101143" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outR" value="0" />
+</preset>
+</plugin>
+</rack>

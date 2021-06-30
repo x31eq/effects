@@ -10,12 +10,34 @@ A large part is based on the work of Julius Orion Smith
 and Albert Graef
 (http://q-lang.sourceforge.net/examples.html#Faust)
 
-The Stanford link is dead
+The Stanford link is dead.  Old wayback machine:
+
+https://web.archive.org/web/20080417095009/http://ccrma.stanford.edu/realsimple/faust/
+
+Can't see anything about valves.
+
+This looks like the current link:
+
+https://www.dsprelated.com/freebooks/filters/Digital_Filtering_Faust_PD.html
 
 LV2/faust/guitarix.lib has the initial parameters and some comments on valves:
 
 thesis of Ragnar Bendiksen (used in swh ladspa valve plugin)
 
+This was a link to that:
+
+http://www.notam02.no/~rbendiks/Diplom/Innhold.html.
+
+from the plugin docs
+
+http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html#tth_sEc2.107
+
+
+The Wayback Machine has it
+
+https://web.archive.org/web/20080701141703/http://www.notam02.no/~rbendiks/Diplom/Innhold.html
+
+in Norwegian!
 
 
 LV2/gxautowah.lv2/gxautowah.ttl declares it to be a Dunlop Crybaby emulator

@@ -5947,7 +5947,7 @@
       "JCM-2000.pp": "post",
       "JCM-800.position": 1,
       "JCM-800.pp": "post",
-      "JCM800Pre.P6v": 0.326387,
+      "JCM800Pre.P6v": 0.185753,
       "JCM800Pre.on_off": 1,
       "JCM800Pre.position": 0,
       "JCM800Pre.pp": "pre",
@@ -6008,7 +6008,7 @@
       "amp.tonestack.select": "Engl",
       "amp.wet_dry": -0.850697,
       "amp2.stage1.Pregain": -0.941434,
-      "amp2.stage2.gain1": -4.35345,
+      "amp2.stage2.gain1": 2.21527,
       "ampmodul.amp2.stage1.tube1": 6,
       "ampmodul.amp2.stage2.tube2": 6,
       "ampmodul.feedbac": 0,
@@ -6097,7 +6097,7 @@
       "cab_st.Level": 3.28429,
       "cab_st.bass": 3.46791,
       "cab_st.on_off": 1,
-      "cab_st.position": 2,
+      "cab_st.position": 1,
       "cab_st.select": "AC-30",
       "cab_st.treble": -3.91846,
       "camp.position": 1,
@@ -6436,7 +6436,7 @@
       "gx_distortion.trigger": 0.12,
       "gx_distortion.vibrato": 1,
       "gx_distortion.wet_dry": 100,
-      "gxdistortion.drive": 0.107552,
+      "gxdistortion.drive": 0.141087,
       "gxdistortion.wet_dry": 100,
       "hfb.Intensity": 0.5,
       "hfb.Volume": 0.5,
@@ -7088,7 +7088,7 @@
       "zita_rev1.on_off": 1,
       "zita_rev1.output.dry_wet_mix": -0.240109,
       "zita_rev1.output.level": 5.11576,
-      "zita_rev1.position": 1
+      "zita_rev1.position": 0
     }
   },
   "trivalve", {

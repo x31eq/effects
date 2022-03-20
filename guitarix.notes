@@ -1,3 +1,13 @@
+From trunk
+
+./waf configure --optimization --prefix=$HOME/.local
+./waf clean
+./waf build --progress
+./waf install
+
+There's now a new guitarix in the path,
+but the system install still takes priority.
+
 We're in trunk/src now
 
 gx_head/gui/gx_main_window.cpp includes this comment:

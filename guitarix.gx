@@ -2361,7 +2361,7 @@
       "zita_rev1.position": 0
     }
   },
-  "spacy", {
+  "chorused", {
     "engine": {
       "AC-15.position": 1,
       "AC-15.pp": "post",
@@ -10623,7 +10623,7 @@
       "zita_rev1.position": 4
     }
   },
-  "chorused", {
+  "spacy", {
     "engine": {
       "AC-15.position": 1,
       "AC-15.pp": "post",

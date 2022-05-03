@@ -9532,7 +9532,7 @@
       "amp.fuzz": 0,
       "amp.on_off": 0,
       "amp.out_amp": 0,
-      "amp.out_master": -21.0468,
+      "amp.out_master": -12.9254,
       "amp.tonestack.Bass": 0.544204,
       "amp.tonestack.Middle": 0.38971,
       "amp.tonestack.Treble": 0.654241,
@@ -9602,7 +9602,7 @@
       "bmp.Tone": 0.5,
       "bmp.Volume": 0.5,
       "bmp.on_off": 0,
-      "bmp.position": 6,
+      "bmp.position": 3,
       "bmp.pp": "post",
       "bossds1.Level": 3,
       "bossds1.Tone": 0.7,
@@ -9654,7 +9654,7 @@
       "compressor.attack": 0.000421227,
       "compressor.knee": 5.75747,
       "compressor.on_off": 0,
-      "compressor.position": 5,
+      "compressor.position": 6,
       "compressor.pp": "post",
       "compressor.ratio": 2.5181,
       "compressor.release": 0.8,
@@ -9679,7 +9679,7 @@
       "cstbt1.Level": 0.5,
       "cstbt1.Tone": 0.5,
       "cstbt1.on_off": 0,
-      "cstbt1.position": 14,
+      "cstbt1.position": 7,
       "cstbt1.pp": "post",
       "cstbt1.wet_dry": 100,
       "dallaswah.position": 1,
@@ -10230,7 +10230,7 @@
       "mxrdis.Volume": 0.5,
       "mxrdis.drive": 0.5,
       "mxrdis.on_off": 0,
-      "mxrdis.position": 9,
+      "mxrdis.position": 4,
       "mxrdis.pp": "post",
       "noise_gate.on_off": 1,
       "noise_gate.threshold": 0.0545748,
@@ -10620,7 +10620,7 @@
       "zita_rev1.on_off": 0,
       "zita_rev1.output.dry_wet_mix": -0.639484,
       "zita_rev1.output.level": 5.11576,
-      "zita_rev1.position": 5
+      "zita_rev1.position": 3
     }
   },
   "spacy", {

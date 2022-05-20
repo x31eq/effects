@@ -12011,7 +12011,7 @@
       "colbwah.pp": "pre",
       "colwah.position": 2,
       "colwah.pp": "pre",
-      "compressor.attack": 0.0589504,
+      "compressor.attack": 0,
       "compressor.knee": 5.75747,
       "compressor.on_off": 1,
       "compressor.position": 0,

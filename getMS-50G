@@ -1,0 +1,16 @@
+#!/usr/bin/zsh
+
+die() {
+    print $* >&2
+    exit 1
+}
+
+cd $0:h:a/MS-50G || die No MS-50G folder
+rm *.50g
+if ! unzip ~/Downloads/newbank.50g*.zip(om[1])
+then
+    git reset --hard
+    die No or bad zip file
+fi
+rm *@Empty.50g
+rm <01-30>@*.50g

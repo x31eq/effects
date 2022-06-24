@@ -4804,7 +4804,7 @@
       "aclipper.pp": "post",
       "aclipper.tone": 0.5,
       "amp.balance": 0,
-      "amp.bass_boost.on_off": 1,
+      "amp.bass_boost.on_off": 0,
       "amp.clip.on_off": 0,
       "amp.feed_on_off": 1,
       "amp.fuzz": 0,
@@ -4910,7 +4910,7 @@
       "cab_st.on_off": 1,
       "cab_st.position": 1,
       "cab_st.select": "Mesa Boogie",
-      "cab_st.treble": -1.87648,
+      "cab_st.treble": -1.39378,
       "camp.position": 2,
       "camp.pp": "post",
       "chorus.delay": 0.00992822,
@@ -5182,7 +5182,7 @@
       "fumaster.Level": 0.5,
       "fumaster.Tone": 0.5,
       "fumaster.on_off": 0,
-      "fumaster.position": 8,
+      "fumaster.position": 3,
       "fumaster.pp": "post",
       "fumaster.wet_dry": 100,
       "fuzzdrive.Distortion": 0.790351,
@@ -5898,7 +5898,7 @@
       "zita_rev1.on_off": 0,
       "zita_rev1.output.dry_wet_mix": -0.378649,
       "zita_rev1.output.level": 5.11576,
-      "zita_rev1.position": 6
+      "zita_rev1.position": 3
     }
   },
   "vermin", {

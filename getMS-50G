@@ -13,5 +13,5 @@ then
     die No or bad zip file
 fi
 rm *@Empty.50g
-rm <01-30>@*.50g
+rm <01-29>@*.50g
 git add *.50g

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset name="super-smooth" plugin="BYOD" vendor="User" category="" version="1.0.1">
+  <proc_chain>
+    <Oscilloscope>
+      <Parameters x_pos="0.7193113565444946" y_pos="0.0">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Oscilloscope>
+    <Spring_Reverb>
+      <Parameters x_pos="0.5553892254829407" y_pos="0.2553606331348419">
+        <PARAM id="chaos" value="0.3333333432674408"/>
+        <PARAM id="damping" value="0.6555555462837219"/>
+        <PARAM id="decay" value="0.6065573692321777"/>
+        <PARAM id="mix" value="0.4754098355770111"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="reflect" value="0.4098360538482666"/>
+        <PARAM id="shake" value="0.8888888955116272"/>
+        <PARAM id="size" value="0.7049180269241333"/>
+        <PARAM id="spin" value="0.2950819730758667"/>
+      </Parameters>
+      <port_0 connection_0="0" connection_end_0="0" connection_1="4" connection_end_1="0"/>
+    </Spring_Reverb>
+    <Muff_Tone>
+      <Parameters x_pos="0.397455096244812" y_pos="0.5614035129547119">
+        <PARAM id="mids" value="0.828000009059906"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="tone" value="0.6000000238418579"/>
+        <PARAM id="type" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="1" connection_end_0="0"/>
+    </Muff_Tone>
+    <Muff_Drive>
+      <Parameters x_pos="0.2215568870306015" y_pos="0.5906432867050171">
+        <PARAM id="harmonics" value="0.0240000057965517"/>
+        <PARAM id="level" value="0.8380000591278076"/>
+        <PARAM id="n_stages" value="3.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="sustain" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="2" connection_end_0="0"/>
+    </Muff_Drive>
+    <Chorus>
+      <Parameters x_pos="0.7252994179725647" y_pos="0.2670565247535706">
+        <PARAM id="delay_type" value="0.0"/>
+        <PARAM id="depth" value="0.1800000369548798"/>
+        <PARAM id="feedback" value="0.4199999868869781"/>
+        <PARAM id="mix" value="0.2400000244379044"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="rate" value="0.3199999928474426"/>
+      </Parameters>
+      <port_0 connection_0="-1" connection_end_0="0"/>
+    </Chorus>
+    <Centaur>
+      <Parameters x_pos="0.1182634755969048" y_pos="0.1734892725944519">
+        <PARAM id="gain" value="0.1639999747276306"/>
+        <PARAM id="level" value="0.3039999604225159"/>
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="3" connection_end_0="0"/>
+    </Centaur>
+    <Input>
+      <Parameters x_pos="0.005020080134272575" y_pos="0.3221343755722046">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="5" connection_end_0="0"/>
+    </Input>
+    <Output>
+      <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Output>
+  </proc_chain>
+  <extra_info/>
+</Preset>

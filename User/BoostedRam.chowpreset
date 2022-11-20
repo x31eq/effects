@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="Archenland" plugin="BYOD" vendor="User" category="" version="1.0.9"
-        preset_file="/home/graham/music/effects/User/Archenland.chowpreset">
+<Preset name="BoostedRam" plugin="BYOD" vendor="User" category="" version="1.0.9"
+        preset_file="/home/graham/music/effects/User/BoostedRam.chowpreset">
   <proc_chain state_plugin_version="1.0.9">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
@@ -23,21 +23,21 @@
       <port_0 connection_0="0" connection_end_0="0" connection_1="4" connection_end_1="0"/>
     </Spring_Reverb>
     <Muff_Tone>
-      <Parameters x_pos="0.397455096244812" y_pos="0.5614035129547119">
-        <PARAM id="mids" value="0.3280000686645508"/>
+      <Parameters x_pos="0.4970000088214874" y_pos="0.5226414799690247">
+        <PARAM id="mids" value="0.5880000591278076"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="tone" value="0.4880000650882721"/>
-        <PARAM id="type" value="3.0"/>
+        <PARAM id="tone" value="0.3600000441074371"/>
+        <PARAM id="type" value="1.0"/>
       </Parameters>
       <port_0 connection_0="1" connection_end_0="0"/>
     </Muff_Tone>
     <Muff_Drive>
-      <Parameters x_pos="0.2215568870306015" y_pos="0.5906432867050171">
-        <PARAM id="harmonics" value="0.8240000009536743"/>
-        <PARAM id="level" value="0.8780000805854797"/>
+      <Parameters x_pos="0.2169999927282333" y_pos="0.5132075548171997">
+        <PARAM id="harmonics" value="0.3600000143051147"/>
+        <PARAM id="level" value="0.6700000762939453"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.6680000424385071"/>
+        <PARAM id="sustain" value="0.2759999632835388"/>
         <PARAM id="high_q" value="1.0"/>
         <PARAM id="smoothing"/>
       </Parameters>
@@ -54,17 +54,38 @@
       </Parameters>
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
-    <Centaur>
-      <Parameters x_pos="0.1182634755969048" y_pos="0.1734892725944519">
-        <PARAM id="gain" value="0.6719999313354492"/>
-        <PARAM id="level" value="1.0"/>
+    <Clean_Gain>
+      <Parameters x_pos="0.1025449112057686" y_pos="0.03703703731298447">
+        <PARAM id="gain" value="18.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="mode" value="1.0"/>
+        <PARAM id="extend"/>
+        <PARAM id="gain_extended"/>
+        <PARAM id="invert"/>
+      </Parameters>
+      <port_0 connection_0="6" connection_end_0="0"/>
+    </Clean_Gain>
+    <Clean_Gain>
+      <Parameters x_pos="0.26871258020401" y_pos="0.0">
+        <PARAM id="gain" value="18.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="extend"/>
+        <PARAM id="gain_extended"/>
+        <PARAM id="invert"/>
+      </Parameters>
+      <port_0 connection_0="7" connection_end_0="0"/>
+    </Clean_Gain>
+    <Clean_Gain>
+      <Parameters x_pos="0.2790000140666962" y_pos="0.1773584932088852">
+        <PARAM id="gain" value="-10.36800003051758"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="extend"/>
+        <PARAM id="gain_extended"/>
+        <PARAM id="invert"/>
       </Parameters>
       <port_0 connection_0="3" connection_end_0="0"/>
-    </Centaur>
+    </Clean_Gain>
     <Input>
-      <Parameters x_pos="0.005020080134272575" y_pos="0.3221343755722046">
+      <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
       <port_0 connection_0="5" connection_end_0="0"/>

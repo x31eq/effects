@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="Narnia" plugin="BYOD" vendor="User" category="" version="1.0.1">
-  <proc_chain>
+<Preset name="Narnia" plugin="BYOD" vendor="User" category="" version="1.0.9"
+        preset_file="/home/graham/music/effects/User/Narnia.chowpreset">
+  <proc_chain state_plugin_version="1.0.9">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -36,7 +37,9 @@
         <PARAM id="level" value="0.6700000762939453"/>
         <PARAM id="n_stages" value="3.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.5600000023841858"/>
+        <PARAM id="sustain" value="0.4120000004768372"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="smoothing"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>
@@ -53,9 +56,10 @@
     </Chorus>
     <Centaur>
       <Parameters x_pos="0.1182634755969048" y_pos="0.1734892725944519">
-        <PARAM id="gain" value="0.543999969959259"/>
-        <PARAM id="level" value="0.3600000143051147"/>
+        <PARAM id="gain" value="0.1159999668598175"/>
+        <PARAM id="level" value="0.5760000348091125"/>
         <PARAM id="on_off" value="1.0"/>
+        <PARAM id="mode" value="1.0"/>
       </Parameters>
       <port_0 connection_0="3" connection_end_0="0"/>
     </Centaur>

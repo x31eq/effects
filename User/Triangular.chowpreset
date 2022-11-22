@@ -33,13 +33,13 @@
     </Muff_Tone>
     <Muff_Drive>
       <Parameters x_pos="0.03099999949336052" y_pos="0.473584920167923">
-        <PARAM id="harmonics" value="0.5539999604225159"/>
+        <PARAM id="harmonics" value="0.473999947309494"/>
         <PARAM id="level" value="0.7980000376701355"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="sustain" value="0.6159999370574951"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="smoothing" value="0.5879999995231628"/>
+        <PARAM id="smoothing" value="0.5840000510215759"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>

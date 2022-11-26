@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="Triangular" plugin="BYOD" vendor="User" category="" version="1.0.9"
+<Preset name="Triangular" plugin="BYOD" vendor="User" category="" version="1.1.0"
         preset_file="/home/graham/music/effects/User/Triangular.chowpreset">
-  <proc_chain state_plugin_version="1.0.9">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.6240000128746033" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -33,7 +33,7 @@
     </Muff_Tone>
     <Muff_Drive>
       <Parameters x_pos="0.03099999949336052" y_pos="0.473584920167923">
-        <PARAM id="harmonics" value="0.473999947309494"/>
+        <PARAM id="harmonics" value="0.205999955534935"/>
         <PARAM id="level" value="0.7980000376701355"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>

@@ -16613,7 +16613,7 @@
       "amp.out_master": 4,
       "amp.tonestack.Bass": 0.314287,
       "amp.tonestack.Middle": 0.601931,
-      "amp.tonestack.Treble": 0.744103,
+      "amp.tonestack.Treble": 0.485131,
       "amp.tonestack.on_off": 1,
       "amp.tonestack.position": 2,
       "amp.tonestack.pp": "post",

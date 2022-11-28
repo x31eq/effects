@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset name="560 Ram" plugin="BYOD" vendor="User" category="" version="1.1.0"
+        preset_file="/home/graham/music/effects/User/560 Ram.chowpreset">
+  <proc_chain state_plugin_version="1.1.0">
+    <Oscilloscope>
+      <Parameters x_pos="0.6029900312423706" y_pos="0.5776515007019043">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Oscilloscope>
+    <Spring_Reverb>
+      <Parameters x_pos="0.3519999980926514" y_pos="0.1056603789329529">
+        <PARAM id="chaos" value="0.3333333432674408"/>
+        <PARAM id="damping" value="0.6555555462837219"/>
+        <PARAM id="decay" value="0.4594594538211823"/>
+        <PARAM id="mix" value="0.4324324429035187"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="reflect" value="0.4098360538482666"/>
+        <PARAM id="shake" value="0.8888888955116272"/>
+        <PARAM id="size" value="0.4864864945411682"/>
+        <PARAM id="spin" value="0.2950819730758667"/>
+      </Parameters>
+      <port_0 connection_0="4" connection_end_0="0"/>
+    </Spring_Reverb>
+    <Muff_Tone>
+      <Parameters x_pos="0.3488371968269348" y_pos="0.5416666865348816">
+        <PARAM id="mids" value="0.6480000615119934"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="tone" value="0.3600000441074371"/>
+        <PARAM id="type" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="1" connection_end_0="0" connection_1="0" connection_end_1="0"/>
+    </Muff_Tone>
+    <Muff_Drive>
+      <Parameters x_pos="0.09551495313644409" y_pos="0.501893937587738">
+        <PARAM id="harmonics" value="0.205999955534935"/>
+        <PARAM id="level" value="0.7980000376701355"/>
+        <PARAM id="n_stages" value="1.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="sustain" value="0.1159999370574951"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="smoothing" value="0.7200000286102295"/>
+      </Parameters>
+      <port_0 connection_0="2" connection_end_0="0"/>
+    </Muff_Drive>
+    <Chorus>
+      <Parameters x_pos="0.6287375688552856" y_pos="0.1287878751754761">
+        <PARAM id="delay_type" value="0.0"/>
+        <PARAM id="depth" value="0.1800000369548798"/>
+        <PARAM id="feedback" value="0.4199999868869781"/>
+        <PARAM id="mix" value="0.09200002253055573"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="rate" value="0.3199999928474426"/>
+      </Parameters>
+      <port_0 connection_0="-1" connection_end_0="0"/>
+    </Chorus>
+    <Clean_Gain>
+      <Parameters x_pos="0.1025449112057686" y_pos="0.03703703731298447">
+        <PARAM id="gain" value="18.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="extend" value="1.0"/>
+        <PARAM id="gain_extended" value="30.0"/>
+        <PARAM id="invert"/>
+      </Parameters>
+      <port_0 connection_0="3" connection_end_0="0"/>
+    </Clean_Gain>
+    <Input>
+      <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="5" connection_end_0="0"/>
+    </Input>
+    <Output>
+      <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Output>
+  </proc_chain>
+  <extra_info/>
+</Preset>

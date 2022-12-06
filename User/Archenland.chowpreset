@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="Archenland" plugin="BYOD" vendor="User" category="" version="1.0.9"
+<Preset name="Archenland" plugin="BYOD" vendor="User" category="" version="1.1.0"
         preset_file="/home/graham/music/effects/User/Archenland.chowpreset">
-  <proc_chain state_plugin_version="1.0.9">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -56,18 +56,23 @@
     </Chorus>
     <Centaur>
       <Parameters x_pos="0.1182634755969048" y_pos="0.1734892725944519">
-        <PARAM id="gain" value="0.6719999313354492"/>
-        <PARAM id="level" value="1.0"/>
+        <PARAM id="gain" value="0.4320000112056732"/>
+        <PARAM id="level" value="0.5839999914169312"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="mode" value="1.0"/>
       </Parameters>
       <port_0 connection_0="3" connection_end_0="0"/>
     </Centaur>
+    <Tuner>
+      <Parameters x_pos="0.3554817140102386" y_pos="0.0">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Tuner>
     <Input>
       <Parameters x_pos="0.005020080134272575" y_pos="0.3221343755722046">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="5" connection_end_0="0"/>
+      <port_0 connection_0="5" connection_end_0="0" connection_1="6" connection_end_1="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

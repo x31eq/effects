@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="BoostedRam" plugin="BYOD" vendor="User" category="" version="1.0.9"
+<Preset name="BoostedRam" plugin="BYOD" vendor="User" category="" version="1.1.0"
         preset_file="/home/graham/music/effects/User/BoostedRam.chowpreset">
-  <proc_chain state_plugin_version="1.0.9">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -37,9 +37,9 @@
         <PARAM id="level" value="0.6700000762939453"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.2759999632835388"/>
+        <PARAM id="sustain" value="0.3719999492168427"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="smoothing"/>
+        <PARAM id="smoothing" value="0.5479999780654907"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>
@@ -55,40 +55,25 @@
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
     <Clean_Gain>
-      <Parameters x_pos="0.1025449112057686" y_pos="0.03703703731298447">
+      <Parameters x_pos="0.04485049843788147" y_pos="0.4867424368858337">
         <PARAM id="gain" value="18.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="extend"/>
-        <PARAM id="gain_extended"/>
-        <PARAM id="invert"/>
-      </Parameters>
-      <port_0 connection_0="6" connection_end_0="0"/>
-    </Clean_Gain>
-    <Clean_Gain>
-      <Parameters x_pos="0.26871258020401" y_pos="0.0">
-        <PARAM id="gain" value="18.0"/>
-        <PARAM id="on_off" value="1.0"/>
-        <PARAM id="extend"/>
-        <PARAM id="gain_extended"/>
-        <PARAM id="invert"/>
-      </Parameters>
-      <port_0 connection_0="7" connection_end_0="0"/>
-    </Clean_Gain>
-    <Clean_Gain>
-      <Parameters x_pos="0.2790000140666962" y_pos="0.1773584932088852">
-        <PARAM id="gain" value="-10.36800003051758"/>
-        <PARAM id="on_off" value="1.0"/>
-        <PARAM id="extend"/>
-        <PARAM id="gain_extended"/>
+        <PARAM id="extend" value="1.0"/>
+        <PARAM id="gain_extended" value="30.0"/>
         <PARAM id="invert"/>
       </Parameters>
       <port_0 connection_0="3" connection_end_0="0"/>
     </Clean_Gain>
+    <Tuner>
+      <Parameters x_pos="0.2209302335977554" y_pos="0.07196969538927078">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Tuner>
     <Input>
       <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="5" connection_end_0="0"/>
+      <port_0 connection_0="5" connection_end_0="0" connection_1="6" connection_end_1="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="BoostedMuff" plugin="BYOD" vendor="User" category="" version="1.0.1">
-  <proc_chain>
+<Preset name="BoostedMuff" plugin="BYOD" vendor="User" category="" version="1.1.0"
+        preset_file="/home/graham/music/effects/User/BoostedMuff.chowpreset">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -37,6 +38,8 @@
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="sustain" value="0.371999979019165"/>
+        <PARAM id="high_q"/>
+        <PARAM id="smoothing"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>
@@ -52,31 +55,25 @@
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
     <Clean_Gain>
-      <Parameters x_pos="0.1025449112057686" y_pos="0.03703703731298447">
+      <Parameters x_pos="0.01162790693342686" y_pos="0.4431818127632141">
         <PARAM id="gain" value="18.0"/>
         <PARAM id="on_off" value="1.0"/>
-      </Parameters>
-      <port_0 connection_0="7" connection_end_0="0"/>
-    </Clean_Gain>
-    <Clean_Gain>
-      <Parameters x_pos="0.03068862296640873" y_pos="0.5029239654541016">
-        <PARAM id="gain" value="18.0"/>
-        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="extend" value="1.0"/>
+        <PARAM id="gain_extended" value="30.0"/>
+        <PARAM id="invert"/>
       </Parameters>
       <port_0 connection_0="3" connection_end_0="0"/>
     </Clean_Gain>
-    <Clean_Gain>
-      <Parameters x_pos="0.26871258020401" y_pos="0.0">
-        <PARAM id="gain" value="18.0"/>
+    <Tuner>
+      <Parameters x_pos="0.1677740812301636" y_pos="0.05681818351149559">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="6" connection_end_0="0"/>
-    </Clean_Gain>
+    </Tuner>
     <Input>
       <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="5" connection_end_0="0"/>
+      <port_0 connection_0="5" connection_end_0="0" connection_1="6" connection_end_1="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

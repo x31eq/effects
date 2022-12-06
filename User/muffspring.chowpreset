@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="muffspring" plugin="BYOD" vendor="User" category="" version="1.0.1">
-  <proc_chain>
+<Preset name="muffspring" plugin="BYOD" vendor="User" category="" version="1.1.0"
+        preset_file="/home/graham/music/effects/User/muffspring.chowpreset">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.5813252925872803" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -22,7 +23,7 @@
       <port_0 connection_0="0" connection_end_0="0" connection_1="4" connection_end_1="0"/>
     </Spring_Reverb>
     <Muff_Tone>
-      <Parameters x_pos="0.273203581571579" y_pos="0.1247563362121582">
+      <Parameters x_pos="0.3480066359043121" y_pos="0.08522727340459824">
         <PARAM id="mids" value="0.371999979019165"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="tone" value="0.6079999804496765"/>
@@ -31,17 +32,19 @@
       <port_0 connection_0="1" connection_end_0="0"/>
     </Muff_Tone>
     <Muff_Drive>
-      <Parameters x_pos="0.1070359274744987" y_pos="0.1208577007055283">
+      <Parameters x_pos="0.126245841383934" y_pos="0.560606062412262">
         <PARAM id="harmonics" value="0.4659999310970306"/>
-        <PARAM id="level" value="0.75"/>
+        <PARAM id="level" value="0.8339999914169312"/>
         <PARAM id="n_stages" value="3.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.4359999895095825"/>
+        <PARAM id="sustain" value="0.07199998944997787"/>
+        <PARAM id="high_q"/>
+        <PARAM id="smoothing" value="0.4239999949932098"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>
     <Chorus>
-      <Parameters x_pos="0.6160179376602173" y_pos="0.4405457973480225">
+      <Parameters x_pos="0.6710963249206543" y_pos="0.4924242496490479">
         <PARAM id="delay_type" value="0.0"/>
         <PARAM id="depth" value="0.1960000395774841"/>
         <PARAM id="feedback" value="0.4199999868869781"/>
@@ -51,11 +54,16 @@
       </Parameters>
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
+    <Tuner>
+      <Parameters x_pos="0.08970099687576294" y_pos="0.009469697251915932">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Tuner>
     <Input>
       <Parameters x_pos="0.005020080134272575" y_pos="0.3221343755722046">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="3" connection_end_0="0"/>
+      <port_0 connection_0="3" connection_end_0="0" connection_1="5" connection_end_1="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

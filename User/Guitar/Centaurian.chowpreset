@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Preset name="Centaurian" plugin="BYOD" vendor="User" category="Guitar"
-        version="1.0.1">
-  <proc_chain>
-    <Dirty_Tube>
-      <Parameters x_pos="0.1435742974281311" y_pos="0.2806324064731598">
-        <PARAM id="drive" value="0.5600000619888306"/>
-        <PARAM id="on_off" value="1.0"/>
-      </Parameters>
-      <port_0 connection_0="3" connection_end_0="0"/>
-    </Dirty_Tube>
+        version="1.1.0" preset_file="/home/graham/music/effects/User/Guitar/Centaurian.chowpreset">
+  <proc_chain state_plugin_version="1.1.0">
     <Oscilloscope>
       <Parameters x_pos="0.672690749168396" y_pos="0.6027668118476868">
         <PARAM id="on_off" value="1.0"/>
@@ -27,15 +20,8 @@
         <PARAM id="size" value="0.3046875"/>
         <PARAM id="spin" value="0.65625"/>
       </Parameters>
-      <port_0 connection_0="1" connection_end_0="0" connection_1="4" connection_end_1="0"/>
+      <port_0 connection_0="0" connection_end_0="0" connection_1="2" connection_end_1="0"/>
     </Spring_Reverb>
-    <Clean_Gain>
-      <Parameters x_pos="0.1967871487140656" y_pos="0.6047430634498596">
-        <PARAM id="gain" value="15.84000015258789"/>
-        <PARAM id="on_off" value="1.0"/>
-      </Parameters>
-      <port_0 connection_0="2" connection_end_0="0"/>
-    </Clean_Gain>
     <Chorus>
       <Parameters x_pos="0.663654625415802" y_pos="0.2134387344121933">
         <PARAM id="delay_type" value="0.0"/>
@@ -48,18 +34,19 @@
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
     <Centaur>
-      <Parameters x_pos="0.05522088333964348" y_pos="0.007905138656497002">
-        <PARAM id="gain" value="0.5839999318122864"/>
-        <PARAM id="level" value="0.9079999923706055"/>
+      <Parameters x_pos="0.1586378663778305" y_pos="0.3958333432674408">
+        <PARAM id="gain" value="0.9800000190734863"/>
+        <PARAM id="level" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
+        <PARAM id="mode" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="0" connection_end_0="0"/>
+      <port_0 connection_0="1" connection_end_0="0"/>
     </Centaur>
     <Input>
       <Parameters x_pos="0.005020080134272575" y_pos="0.3221343755722046">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="5" connection_end_0="0"/>
+      <port_0 connection_0="3" connection_end_0="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

@@ -34,10 +34,10 @@
     <Muff_Drive>
       <Parameters x_pos="0.09551495313644409" y_pos="0.501893937587738">
         <PARAM id="harmonics" value="0.205999955534935"/>
-        <PARAM id="level" value="0.7980000376701355"/>
+        <PARAM id="level" value="0.9020000100135803"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.1159999370574951"/>
+        <PARAM id="sustain" value="0.2599999308586121"/>
         <PARAM id="high_q" value="1.0"/>
         <PARAM id="smoothing" value="0.7200000286102295"/>
       </Parameters>
@@ -54,21 +54,16 @@
       </Parameters>
       <port_0 connection_0="-1" connection_end_0="0"/>
     </Chorus>
-    <Clean_Gain>
-      <Parameters x_pos="0.1025449112057686" y_pos="0.03703703731298447">
-        <PARAM id="gain" value="18.0"/>
+    <Tuner>
+      <Parameters x_pos="0.1220930218696594" y_pos="0.009469697251915932">
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="extend" value="1.0"/>
-        <PARAM id="gain_extended" value="30.0"/>
-        <PARAM id="invert"/>
       </Parameters>
-      <port_0 connection_0="3" connection_end_0="0"/>
-    </Clean_Gain>
+    </Tuner>
     <Input>
       <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
         <PARAM id="on_off" value="1.0"/>
       </Parameters>
-      <port_0 connection_0="5" connection_end_0="0"/>
+      <port_0 connection_0="3" connection_end_0="0" connection_1="5" connection_end_1="0"/>
     </Input>
     <Output>
       <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">

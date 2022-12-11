@@ -37,9 +37,9 @@
         <PARAM id="level" value="1.0"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.2119999974966049"/>
+        <PARAM id="sustain" value="0.2039999663829803"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="smoothing" value="0.5840000510215759"/>
+        <PARAM id="smoothing" value="0.1520000696182251"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>

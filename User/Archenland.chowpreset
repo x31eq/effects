@@ -39,7 +39,7 @@
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="sustain" value="0.6680000424385071"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="smoothing"/>
+        <PARAM id="smoothing" value="-0.6480000019073486"/>
       </Parameters>
       <port_0 connection_0="2" connection_end_0="0"/>
     </Muff_Drive>

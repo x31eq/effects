@@ -33,7 +33,7 @@
     </Muff_Tone>
     <Muff_Drive>
       <Parameters x_pos="0.09551495313644409" y_pos="0.501893937587738">
-        <PARAM id="harmonics" value="0.205999955534935"/>
+        <PARAM id="harmonics" value="0.625999927520752"/>
         <PARAM id="level" value="0.9020000100135803"/>
         <PARAM id="n_stages" value="1.0"/>
         <PARAM id="on_off" value="1.0"/>

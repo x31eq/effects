@@ -1,3 +1,4 @@
 cp /home/graham/.config/guitarix/banks/guitar.gx guitarix.gx
 cp /home/graham/.config/guitarix/banks/tubular.gx .
 cp /home/graham/.config/guitarix/banks/synth.gx .
+cp /home/graham/.config/guitarix/banks/bardic.gx .

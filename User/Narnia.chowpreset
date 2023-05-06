@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset name="Narnia" plugin="BYOD" vendor="User" category="" version="1.1.0"
+<Preset name="Narnia" plugin="BYOD" vendor="User" category="" version="1.1.1"
         preset_file="/home/graham/music/effects/User/Narnia.chowpreset">
-  <proc_chain state_plugin_version="1.1.0">
+  <proc_chain state_plugin_version="1.1.1">
     <Oscilloscope>
       <Parameters x_pos="0.7193113565444946" y_pos="0.0">
         <PARAM id="on_off" value="1.0"/>
@@ -33,11 +33,11 @@
     </Muff_Tone>
     <Muff_Drive>
       <Parameters x_pos="0.2215568870306015" y_pos="0.5906432867050171">
-        <PARAM id="harmonics" value="0.4000000059604645"/>
+        <PARAM id="harmonics" value="0.2080000042915344"/>
         <PARAM id="level" value="0.6700000762939453"/>
         <PARAM id="n_stages" value="3.0"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="sustain" value="0.3440000116825104"/>
+        <PARAM id="sustain" value="0.1600000113248825"/>
         <PARAM id="high_q" value="1.0"/>
         <PARAM id="smoothing" value="0.2719999551773071"/>
       </Parameters>

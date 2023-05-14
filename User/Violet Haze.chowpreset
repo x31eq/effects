@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset name="Violet Haze" plugin="BYOD" vendor="User" category="" version="1.1.1"
+        preset_file="/home/graham/music/effects/User/Violet Haze.chowpreset">
+  <proc_chain state_plugin_version="1.1.1">
+    <Oscilloscope>
+      <Parameters x_pos="0.6710963249206543" y_pos="0.5928030014038086">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Oscilloscope>
+    <Spring_Reverb>
+      <Parameters x_pos="0.3519999980926514" y_pos="0.1056603789329529">
+        <PARAM id="chaos" value="0.3333333432674408"/>
+        <PARAM id="damping" value="0.6555555462837219"/>
+        <PARAM id="decay" value="0.4594594538211823"/>
+        <PARAM id="mix" value="0.4324324429035187"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="reflect" value="0.4098360538482666"/>
+        <PARAM id="shake" value="0.8888888955116272"/>
+        <PARAM id="size" value="0.4864864945411682"/>
+        <PARAM id="spin" value="0.2950819730758667"/>
+      </Parameters>
+      <port_0 connection_0="3" connection_end_0="0"/>
+    </Spring_Reverb>
+    <Muff_Tone>
+      <Parameters x_pos="0.4152823984622955" y_pos="0.5700757503509521">
+        <PARAM id="mids" value="0.5600000619888306"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="tone" value="0.4880000352859497"/>
+        <PARAM id="type" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="1" connection_end_0="0" connection_1="0" connection_end_1="0"/>
+    </Muff_Tone>
+    <Chorus>
+      <Parameters x_pos="0.6287375688552856" y_pos="0.1287878751754761">
+        <PARAM id="delay_type" value="0.0"/>
+        <PARAM id="depth" value="0.1800000369548798"/>
+        <PARAM id="feedback" value="0.4199999868869781"/>
+        <PARAM id="mix" value="0.09200002253055573"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="rate" value="0.3199999928474426"/>
+      </Parameters>
+      <port_0 connection_0="-1" connection_end_0="0"/>
+    </Chorus>
+    <Tuner>
+      <Parameters x_pos="0.1220930218696594" y_pos="0.009469697251915932">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Tuner>
+    <Muff_Clipper>
+      <Parameters x_pos="0.1594684422016144" y_pos="0.6155303120613098">
+        <PARAM id="clip1" value="-0.2222222089767456"/>
+        <PARAM id="clip2" value="-0.1555555462837219"/>
+        <PARAM id="harmonics" value="0.8333333134651184"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="level" value="0.6499999761581421"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="scream" value="0.0"/>
+        <PARAM id="smoothing" value="-0.08888888359069824"/>
+        <PARAM id="sustain" value="0.2777777910232544"/>
+      </Parameters>
+      <port_0 connection_0="6" connection_end_0="0"/>
+    </Muff_Clipper>
+    <Muff_Clipper>
+      <Parameters x_pos="0.2541528344154358" y_pos="0.2215909063816071">
+        <PARAM id="clip1" value="0.1111111640930176"/>
+        <PARAM id="clip2" value="0.5111111402511597"/>
+        <PARAM id="harmonics" value="1.0"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="level" value="0.8888888955116272"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="scream" value="0.0"/>
+        <PARAM id="smoothing" value="-0.1111111044883728"/>
+        <PARAM id="sustain" value="0.7777777910232544"/>
+      </Parameters>
+      <port_0 connection_0="2" connection_end_0="0"/>
+    </Muff_Clipper>
+    <Compressor>
+      <Parameters x_pos="0.007475083228200674" y_pos="0.3674242496490479">
+        <PARAM id="attack" value="10.0"/>
+        <PARAM id="knee" value="6.0"/>
+        <PARAM id="makeup" value="0.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="ratio" value="1.610867500305176"/>
+        <PARAM id="release" value="212.4088897705078"/>
+        <PARAM id="thresh" value="-3.456001281738281"/>
+      </Parameters>
+      <port_0 connection_0="5" connection_end_0="0"/>
+    </Compressor>
+    <Input>
+      <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="4" connection_end_0="0" connection_1="7" connection_end_1="0"/>
+    </Input>
+    <Output>
+      <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Output>
+  </proc_chain>
+  <extra_info/>
+</Preset>

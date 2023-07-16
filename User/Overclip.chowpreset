@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset name="Overclip" plugin="BYOD" vendor="User" category="" version="1.1.1"
+        preset_file="/home/graham/music/effects/User/Overclip.chowpreset">
+  <proc_chain state_plugin_version="1.1.1">
+    <Oscilloscope>
+      <Parameters x_pos="0.7400332093238831" y_pos="0.6174242496490479">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Oscilloscope>
+    <Muff_Tone>
+      <Parameters x_pos="0.4526578187942505" y_pos="0.439393937587738">
+        <PARAM id="mids" value="0.5560000538825989"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="tone" value="0.6480000019073486"/>
+        <PARAM id="type" value="0.0"/>
+      </Parameters>
+      <port_0 connection_0="0" connection_end_0="0" connection_1="-1" connection_end_1="0"/>
+    </Muff_Tone>
+    <Tuner>
+      <Parameters x_pos="0.5847176313400269" y_pos="0.04924242570996284">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Tuner>
+    <Muff_Clipper>
+      <Parameters x_pos="0.1918604671955109" y_pos="0.03787878900766373">
+        <PARAM id="clip1" value="0.3999999761581421"/>
+        <PARAM id="clip2" value="0.7777777910232544"/>
+        <PARAM id="harmonics" value="0.3111111223697662"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="level" value="0.4111111164093018"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="scream" value="0.0"/>
+        <PARAM id="smoothing" value="-0.06666666269302368"/>
+        <PARAM id="sustain" value="0.2000000029802322"/>
+      </Parameters>
+      <port_0 connection_0="4" connection_end_0="0"/>
+    </Muff_Clipper>
+    <Muff_Clipper>
+      <Parameters x_pos="0.1910299062728882" y_pos="0.4450757503509521">
+        <PARAM id="clip1" value="0.4666666984558105"/>
+        <PARAM id="clip2" value="0.5111111402511597"/>
+        <PARAM id="harmonics" value="0.8666666746139526"/>
+        <PARAM id="high_q" value="1.0"/>
+        <PARAM id="level" value="1.0"/>
+        <PARAM id="on_off" value="1.0"/>
+        <PARAM id="scream" value="0.0"/>
+        <PARAM id="smoothing" value="0.1555556058883667"/>
+        <PARAM id="sustain" value="0.1555555611848831"/>
+      </Parameters>
+      <port_0 connection_0="1" connection_end_0="0"/>
+    </Muff_Clipper>
+    <Input>
+      <Parameters x_pos="0.01197604835033417" y_pos="0.1228070184588432">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+      <port_0 connection_0="2" connection_end_0="0" connection_1="3" connection_end_1="0"/>
+    </Input>
+    <Output>
+      <Parameters x_pos="0.8999999761581421" y_pos="0.112648218870163">
+        <PARAM id="on_off" value="1.0"/>
+      </Parameters>
+    </Output>
+  </proc_chain>
+  <extra_info/>
+</Preset>

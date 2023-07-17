@@ -9,10 +9,10 @@
       </Parameters>
     </Oscilloscope>
     <Muff_Tone>
-      <Parameters x_pos="0.4526578187942505" y_pos="0.439393937587738">
-        <PARAM id="mids" value="0.5560000538825989"/>
+      <Parameters x_pos="0.4651162922382355" y_pos="0.4469696879386902">
+        <PARAM id="mids" value="0.5720000267028809"/>
         <PARAM id="on_off" value="1.0"/>
-        <PARAM id="tone" value="0.6480000019073486"/>
+        <PARAM id="tone" value="0.5839999914169312"/>
         <PARAM id="type" value="0.0"/>
       </Parameters>
       <port_0 connection_0="0" connection_end_0="0" connection_1="-1" connection_end_1="0"/>
@@ -24,29 +24,29 @@
     </Tuner>
     <Muff_Clipper>
       <Parameters x_pos="0.1918604671955109" y_pos="0.03787878900766373">
-        <PARAM id="clip1" value="0.3999999761581421"/>
-        <PARAM id="clip2" value="0.7777777910232544"/>
+        <PARAM id="clip1" value="-0.02222222089767456"/>
+        <PARAM id="clip2" value="0.6666666269302368"/>
         <PARAM id="harmonics" value="0.3111111223697662"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="level" value="0.4111111164093018"/>
+        <PARAM id="level" value="0.5111111402511597"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="scream" value="0.0"/>
-        <PARAM id="smoothing" value="-0.06666666269302368"/>
-        <PARAM id="sustain" value="0.2000000029802322"/>
+        <PARAM id="smoothing" value="0.1333333253860474"/>
+        <PARAM id="sustain" value="0.2222222238779068"/>
       </Parameters>
       <port_0 connection_0="4" connection_end_0="0"/>
     </Muff_Clipper>
     <Muff_Clipper>
-      <Parameters x_pos="0.1910299062728882" y_pos="0.4450757503509521">
-        <PARAM id="clip1" value="0.4666666984558105"/>
-        <PARAM id="clip2" value="0.5111111402511597"/>
+      <Parameters x_pos="0.1411960124969482" y_pos="0.5511363744735718">
+        <PARAM id="clip1" value="-0.2444444298744202"/>
+        <PARAM id="clip2" value="-0.199999988079071"/>
         <PARAM id="harmonics" value="0.8666666746139526"/>
         <PARAM id="high_q" value="1.0"/>
-        <PARAM id="level" value="1.0"/>
+        <PARAM id="level" value="0.6888889074325562"/>
         <PARAM id="on_off" value="1.0"/>
         <PARAM id="scream" value="0.0"/>
         <PARAM id="smoothing" value="0.1555556058883667"/>
-        <PARAM id="sustain" value="0.1555555611848831"/>
+        <PARAM id="sustain" value="0.0"/>
       </Parameters>
       <port_0 connection_0="1" connection_end_0="0"/>
     </Muff_Clipper>

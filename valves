@@ -1,5 +1,7 @@
 12AX7 = ECC83 http://www.r-type.org/exhib/aaa0046.htm
 
+The ECC83 high impedance amplifier triode was designed specifically for audio use and has a high amplification factor of 100. Mullard describe the ECC83 as a high μ double triode, having separate cathodes, primarily intended for use as a resistance-coupled amplifier or phase inverter
+
 12AU7 = ECC82 http://www.r-type.org/exhib/acl0189.htm
 
 12AT7 = ECC81 http://www.r-type.org/exhib/aai0246.htm
@@ -8,14 +10,36 @@
 https://www.tubesforamps.com/best-6dj8-review
 https://www.ramtubes.com/article-6
 
+http://www.r-type.org/exhib/aai0011.htm
+
+The ECC88 is a VHF double triode with separate cathodes. The ECC88 was designed for service as a cascode amplifier in the front ends of VHF radio receivers. One triode acted as the local oscillator and the other as the mixer (frequency changer).
+
+https://en.wikipedia.org/wiki/6DJ8
+
+The 6DJ8 is a miniature nine-pin medium gain dual triode vacuum tube. It is distinguished by its very high transconductance, mostly the result of its frame grid construction. Versions of the tube are named ECC88, E88CC, 6922, E188CC, CV4108, 7308, 6N1P and 6N23P.
+
+The tube was developed by Philips in the Netherlands under European designation ECC88. The series-string version 7DJ8 / PCC88 was also introduced at the same time. The 6DJ8 was designed for use as a low-noise amplifier in VHF and UHF TV tuners, an improved successor to the usual 6BK7, but due to its high gain it was heavily used in high-end test equipment, for example, most high-quality oscilloscopes from the 1950s to the 1960s utilize a number of 6DJ8 tubes.
+
+Although not originally designed for the purpose, it became popular in hi-fi audio amplifiers.
+
 6C16 = ECF80 http://www.r-type.org/exhib/aaa1492.htm
 
 6V6 http://www.r-type.org/exhib/aaa0015.htm
+
+https://en.wikipedia.org/wiki/6V6
+
+Following the introduction in July 1936 of the 6L6, the potential of the scaled down version that became the 6V6 was soon realized. The lower-powered 6V6 was better suited for average home use, and became common in the audio output stages of "farmhouse" table-top radios, where power pentodes such as the 6F6 had previously been used.
 
 6L6 http://www.r-type.org/exhib/aaa0101.htm
 ≃ 5881 https://en.wikipedia.org/wiki/Marshall_JTM45
 
 Based on the 6L6 vacuum tube, the 6550 was designed to have higher output power and better stability. It operates with a maximum plate voltage of 600VDC, a screen voltage of 400VDC, and plate dissipation of 35 watts.[8] The KT88, KT90, and 6550, although not identical, are often interchangeable, dependent on external circuit parameters.
+
+https://en.wikipedia.org/wiki/6L6
+
+6L6 is the designator for a beam power tube introduced by Radio Corporation of America in April 1936 and marketed for application as a power amplifier for audio frequencies.
+
+In the UK, three engineers at EMI (Isaac Shoenberg, Cabot Bull and Sidney Rodda) had developed and filed patents in 1933 and 1934 on an output tetrode that utilized novel electrode structures to form electron beams to create a dense space charge region between the anode and screen grid to return anode secondary electrons to the anode. … Around one thousand of the N40 output tetrodes were produced, but MOV (Marconi-Osram Valve) company, under the joint ownership of EMI and GEC, considered the design too difficult to manufacture due to the need for good alignment of the grid wires.[6] As MOV had a design-share agreement with RCA of America, the design was passed to that company.
 
 https://en.wikipedia.org/wiki/6550#6550
 
@@ -23,7 +47,19 @@ https://en.wikipedia.org/wiki/6550#6550
     Used in early Marshalls
     Replaced by EL34 in 1967
 
+https://en.wikipedia.org/wiki/KT66
+
+KT66 is the designator for a beam power tube introduced by Marconi-Osram Valve Co. Ltd. (M-OV) of Britain in 1937 and marketed for application as a power amplifier for audio frequencies and driver for radio frequencies.
+
+The KT66 was very popular in British radios and audio amplifiers. It was the standard output tube in the classic Quad II (1952, a version of which is still being manufactured today) and in the LEAK Type 15 (1945) and TL/12 (1948), both among the earliest British hi-fi amplifiers. Because of their excellent electrical characteristics and overload tolerance, KT66s are preferred by some guitar players for use in guitar amps in place of 6L6GC.
+
 https://marshall.com/live-for-music/history/history-of-1959slp-plexi
+
+EL34 = 6CA7
+
+https://en.wikipedia.org/wiki/EL34
+
+The EL34 was widely used in higher-powered audio amplifiers of the 1960s and 1970s, such as the popular Dynaco Stereo 70 and the Leak TL25 (mono) and Stereo 60,
 
 
 The Vox AC30C2 amplifier uses:
@@ -39,3 +75,17 @@ The Vox AC30 C2 amp became available in early 2010. This is a 30-watt class A al
 Different for this model is that the valve rectifier was replaced with a solid-state version. So whereas the old amp used a GZ34 rectifier valve, when you change your valves oj the C2 there is no rectifier valve to change – all solid-state now.
 
 https://www.ampvalves.co.uk/product/replacement-valve-kit-for-vox-ac30c2/
+
+
+EL84 = 6BQ5
+
+https://en.wikipedia.org/wiki/EL84
+
+The EL84 was developed to eliminate the need for a driver tube in radios, so it has rather more gain than is usual in a power pentode. Eliminating a preamplifier triode in radios made them cheaper.
+
+
+https://en.wikipedia.org/wiki/KT88
+
+The KT88 fits a standard eight-pin octal socket and has similar pinout and applications as the 6L6 and EL34. Specifically designed for audio amplification, the KT88 has higher plate power and voltage ratings than the American 6550. It is one of the largest tubes in its class and can handle significantly higher plate voltages than similar tubes, up to 800 volts. A KT88 push-pull pair in class AB1 fixed bias is capable of 100 watts of output with 2.5% total harmonic distortion or up to about 50W at low distortion in hi-fi applications.
+
+Historically, it has been far more popular with high fidelity stereo manufacturers than guitar amplifier builders, given its characteristics of high-power and low-distortion. Due to these characteristics, it is regularly used to replace 6550 tubes by end users seeking a guitar amplifier tone with less distortion.[6] Some of the amplifiers which shipped with the KT88 power tube include the Hiwatt, Marshall Major, and some Ampeg models.
